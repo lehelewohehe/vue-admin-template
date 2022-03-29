@@ -1,13 +1,10 @@
 <template>
-  <img
-    alt="Vue logo"
-    src="./assets/logo.png"
-  />
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <div id="prettier-id" className="prettier-class" a="1" b="3" c="0">
+    Click Here
+  </div>
 </template>
 <script lang="ts">
-const c = 1;
-const b = 0;
-console.log(c, b);
 </script>
 <style>
 #app {
