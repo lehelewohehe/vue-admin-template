@@ -10,6 +10,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'standard', // JavaScript书写规范中的一种
     'prettier', // prettier的规范，目的是防止prettier和eslint其他的rules冲突，当冲突时，以prettier的为准
+    './.eslintrc-auto-import.json',
   ],
   parserOptions: {
     ecmaVersion: 'latest',

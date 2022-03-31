@@ -4,6 +4,8 @@
 /test/unit/coverage/
 /.vscode/
 
+auto-imports.d.ts
+components.d.ts
 *.sh
 *.html
 *.css
