@@ -10,6 +10,7 @@
     "prettier": "npx prettier --write ./**/*.{js,ts,css,vue}"
   },
   "dependencies": {
+    "element-plus": "^2.1.7",
     "vue": "^3.2.25"
   },
   "devDependencies": {

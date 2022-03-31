@@ -1,11 +1,7 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <div id="prettier-id" className="prettier-class" a="1" b="3" c="0">
-    Click Here
-  </div>
+  <div></div>
 </template>
-<script lang="ts">
-</script>
+<script lang="ts"></script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
