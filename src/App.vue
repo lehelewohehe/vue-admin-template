@@ -2,6 +2,7 @@
   <el-config-provider :size="size" :z-index="zIndex">
     <el-row class="mb-4">
       <el-button>Default</el-button>
+      {{ a }}
       <el-button type="primary">Primary</el-button>
       <el-button type="success">Success</el-button>
       <el-button type="info">Info</el-button>
@@ -10,24 +11,14 @@
       <el-button>中文</el-button>
     </el-row>
     <el-popconfirm title="Are you sure to delete this?">
-      <template #reference>
-        <el-button>Delete</el-button>
-      </template>
+      <template #reference><el-button>Delete</el-button></template>
     </el-popconfirm>
   </el-config-provider>
 </template>
-<script lang="ts">
-import { defineComponent } from 'vue';
-export default defineComponent({
-  setup() {
-    const a = ref(0);
-    console.log(a);
-    return {
-      zIndex: 3000,
-      size: 'small',
-    };
-  },
-});
+<script lang="ts" setup>
+const a = ref(0);
+const zIndex = 3000;
+const size = 'small';
 </script>
 <style>
 #app {
