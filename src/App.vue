@@ -20,7 +20,7 @@ const a = ref(0);
 const zIndex = 3000;
 const size = 'small';
 </script>
-<style>
+<style lang="scss" scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
